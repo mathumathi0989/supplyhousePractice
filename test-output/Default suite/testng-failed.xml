@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Selenium.com.supplyhouse.problem2">
+      <class name="Selenium.com.supplyhouse.search">
         <methods>
-          <include name="setup"/>
-          <include name="ValidsearchTC"/>
-          <include name="tear"/>
+          <include name="launch"/>
         </methods>
-      </class> <!-- Selenium.com.supplyhouse.problem2 -->
+      </class> <!-- Selenium.com.supplyhouse.search -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
