@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,7 +104,12 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="sel.com.supplyhouse.searchTest" class="method navigator-link" hash-for-method="searchvalid">searchvalid</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="sel.com.supplyhouse.searchTest" class="method navigator-link" hash-for-method="searchvalid(AT082410C)">searchvalid(AT082410C)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="sel.com.supplyhouse.searchTest" class="method navigator-link" hash-for-method="searchvalid(AT082330C)">searchvalid(AT082330C)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -127,9 +132,18 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="searchvalid">
-                  </a> <!-- searchvalid -->
+                  <a name="searchvalid(AT082410C)">
+                  </a> <!-- searchvalid(AT082410C) -->
                   <span class="method-name">searchvalid</span>
+                  <span class="parameters">(AT082410C)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchvalid(AT082330C)">
+                  </a> <!-- searchvalid(AT082330C) -->
+                  <span class="method-name">searchvalid</span>
+                  <span class="parameters">(AT082330C)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -187,16 +201,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'searchvalid')
 data.setCell(0, 2, 'sel.com.supplyhouse.searchTest')
-data.setCell(0, 3, 5569);
+data.setCell(0, 3, 23822);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'searchvalid')
+data.setCell(1, 2, 'sel.com.supplyhouse.searchTest')
+data.setCell(1, 3, 3947);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 27 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -231,15 +249,19 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">sel.com.supplyhouse.searchTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">searchvalid</span>
-                <span class="method-start">8400 ms</span>
+                <span class="method-name">searchvalid(AT082330C)</span>
+                <span class="method-start">8861 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchvalid(AT082410C)</span>
+                <span class="method-start">32683 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">sel.com.supplyhouse.browser</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">14015 ms</span>
+                <span class="method-start">36662 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

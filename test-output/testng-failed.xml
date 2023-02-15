@@ -5,7 +5,7 @@
     <classes>
       <class name="sel.com.supplyhouse.searchTest">
         <methods>
-          <include name="searchvalid"/>
+          <include name="searchvalid" invocation-numbers="0"/>
         </methods>
       </class> <!-- sel.com.supplyhouse.searchTest -->
     </classes>

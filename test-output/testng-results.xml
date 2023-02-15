@@ -1,23 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-15T15:56:54 EST" name="Suite" finished-at="2023-02-15T15:57:00 EST" duration-ms="5653">
+  <suite started-at="2023-02-15T18:44:26 EST" name="Suite" finished-at="2023-02-15T18:44:54 EST" duration-ms="27882">
     <groups>
     </groups>
-    <test started-at="2023-02-15T15:56:54 EST" name="Test" finished-at="2023-02-15T15:57:00 EST" duration-ms="5653">
+    <test started-at="2023-02-15T18:44:26 EST" name="Test" finished-at="2023-02-15T18:44:54 EST" duration-ms="27882">
       <class name="sel.com.supplyhouse.searchTest">
-        <test-method signature="searchvalid()[pri:0, instance:sel.com.supplyhouse.searchTest@47d9a273]" started-at="2023-02-15T15:56:54 EST" name="searchvalid" finished-at="2023-02-15T15:57:00 EST" duration-ms="5569" status="PASS">
+        <test-method signature="searchvalid(java.lang.String)[pri:0, instance:sel.com.supplyhouse.searchTest@6221a451]" started-at="2023-02-15T18:44:26 EST" name="searchvalid" data-provider="boilerPart" finished-at="2023-02-15T18:44:50 EST" duration-ms="23822" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AT082330C]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchvalid -->
+        <test-method signature="searchvalid(java.lang.String)[pri:0, instance:sel.com.supplyhouse.searchTest@6221a451]" started-at="2023-02-15T18:44:50 EST" name="searchvalid" data-provider="boilerPart" finished-at="2023-02-15T18:44:54 EST" duration-ms="3947" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AT082410C]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchvalid -->
       </class> <!-- sel.com.supplyhouse.searchTest -->
       <class name="sel.com.supplyhouse.browser">
-        <test-method is-config="true" signature="Browser_launch()[pri:0, instance:sel.com.supplyhouse.browser@437da279]" started-at="2023-02-15T15:56:46 EST" name="Browser_launch" finished-at="2023-02-15T15:56:54 EST" duration-ms="8328" status="PASS">
+        <test-method is-config="true" signature="Browser_launch()[pri:0, instance:sel.com.supplyhouse.browser@242b836]" started-at="2023-02-15T18:44:17 EST" name="Browser_launch" finished-at="2023-02-15T18:44:26 EST" duration-ms="8762" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Browser_launch -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:sel.com.supplyhouse.browser@437da279]" started-at="2023-02-15T15:57:00 EST" name="tearDown" finished-at="2023-02-15T15:57:00 EST" duration-ms="437" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:sel.com.supplyhouse.browser@242b836]" started-at="2023-02-15T18:44:54 EST" name="tearDown" finished-at="2023-02-15T18:44:54 EST" duration-ms="310" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
