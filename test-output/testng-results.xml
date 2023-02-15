@@ -2,16 +2,26 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-12T17:22:01 EST" name="Default suite" finished-at="2023-02-12T17:22:15 EST" duration-ms="13557">
+  <suite started-at="2023-02-15T15:56:54 EST" name="Suite" finished-at="2023-02-15T15:57:00 EST" duration-ms="5653">
     <groups>
     </groups>
-    <test started-at="2023-02-12T17:22:01 EST" name="Default test" finished-at="2023-02-12T17:22:15 EST" duration-ms="13557">
-      <class name="Selenium.com.supplyhouse.search">
-        <test-method signature="launch()[pri:0, instance:Selenium.com.supplyhouse.search@4229bb3f]" started-at="2023-02-12T17:22:01 EST" name="launch" finished-at="2023-02-12T17:22:15 EST" duration-ms="13494" status="PASS">
+    <test started-at="2023-02-15T15:56:54 EST" name="Test" finished-at="2023-02-15T15:57:00 EST" duration-ms="5653">
+      <class name="sel.com.supplyhouse.searchTest">
+        <test-method signature="searchvalid()[pri:0, instance:sel.com.supplyhouse.searchTest@47d9a273]" started-at="2023-02-15T15:56:54 EST" name="searchvalid" finished-at="2023-02-15T15:57:00 EST" duration-ms="5569" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launch -->
-      </class> <!-- Selenium.com.supplyhouse.search -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- searchvalid -->
+      </class> <!-- sel.com.supplyhouse.searchTest -->
+      <class name="sel.com.supplyhouse.browser">
+        <test-method is-config="true" signature="Browser_launch()[pri:0, instance:sel.com.supplyhouse.browser@437da279]" started-at="2023-02-15T15:56:46 EST" name="Browser_launch" finished-at="2023-02-15T15:56:54 EST" duration-ms="8328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_launch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:sel.com.supplyhouse.browser@437da279]" started-at="2023-02-15T15:57:00 EST" name="tearDown" finished-at="2023-02-15T15:57:00 EST" duration-ms="437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- sel.com.supplyhouse.browser -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
